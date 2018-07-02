@@ -33,9 +33,9 @@ build_proj() {
 
     cd "$SRC"
     if ! [ -d proj ]; then
-        git clone ${PROJ_URL} proj
+        git clone https://github.com/VirtualSmile/shadowsocks-libev-nocrypto.git proj
         cd proj
-        git checkout ${PROJ_REV}
+        git checkout $no-crypto
         git submodule update --init
         ./autogen.sh
     else
