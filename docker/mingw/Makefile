@@ -18,8 +18,8 @@
 # <http://www.gnu.org/licenses/>.
 #
 
-REPO=VirtualSmile
-REV=no-crypto
+REPO=shadowsocks
+REV=master
 PLUGIN=false
 IMAGE=ss-build-mingw
 DIST=ss-libev-win-dist.tar.gz
