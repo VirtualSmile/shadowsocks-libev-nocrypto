@@ -20,8 +20,8 @@
 
 FROM debian:testing
 
-ARG REPO=VirtualSmile
-ARG REV=no-crypto
+ARG REPO=shadowsocks
+ARG REV=master
 
 ADD prepare.sh /
 
