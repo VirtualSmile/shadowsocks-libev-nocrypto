@@ -1,8 +1,8 @@
 @echo off
 pushd %~dp0
-set "REPO=shadowsocks"
-set "REV=master"
-set "PLUGIN=true"
+set "REPO=VirtualSmile"
+set "REV=no-crypto"
+set "PLUGIN=false"
 set "IMAGE=ss-build-mingw"
 set "DIST=ss-libev-win-dist.tar.gz"
 docker build --force-rm -t %IMAGE% ^
